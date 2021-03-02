@@ -10,6 +10,6 @@ export class ArrayUtils {
 	}
 }
 
-const arrayInstance = new ArrayUtils()
+const arrayInstance = new ArrayUtils();
 
-export default arrayInstance
+export default arrayInstance;

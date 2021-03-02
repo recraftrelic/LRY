@@ -3,4 +3,4 @@ class LRY {
 
 }
 
-export default LRY
+export default LRY;

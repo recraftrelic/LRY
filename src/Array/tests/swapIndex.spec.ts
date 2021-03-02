@@ -2,7 +2,7 @@ import { ArrayUtils } from '../index';
 import { expect } from 'chai';
 import 'mocha';
 
-const arrayInstance = new ArrayUtils()
+const arrayInstance = new ArrayUtils();
 
 interface User {
 	name: string,
@@ -33,6 +33,6 @@ describe('Swap Index', () => {
 				name: "Manoj",
 				age: 20
 			},
-		])
-	})
-})
+		]);
+	});
+});
