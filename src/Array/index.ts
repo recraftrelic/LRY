@@ -8,6 +8,11 @@ export class ArrayUtils {
 
 		return arrCopy;
 	}
+
+	public tail<T>(arr: T[], count: number) {
+		const length = arr.length;
+		return arr.slice(length - count, length);
+	}
 }
 
 const arrayInstance = new ArrayUtils();
