@@ -20,7 +20,7 @@ describe('Swap Index', () => {
 				name: "Harish",
 				age: 25
 			},
-		]
+		];
 
 		const swappedArray = arrayInstance.swapIndex<User>(arr, 0, 1);
 
