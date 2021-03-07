@@ -8,6 +8,10 @@ export class ArrayUtils {
 
 		return arrCopy;
 	}
+
+	public head<T>(arr: T[], numberOfElements: number) {
+		return arr.slice(0, numberOfElements);
+	}
 }
 
 const arrayInstance = new ArrayUtils();
