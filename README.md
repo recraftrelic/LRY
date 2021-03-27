@@ -22,7 +22,7 @@ npm install
 
 ## Roadmap
  
-* `Array.chunks`
+* ~`Array.chunks`~
 * `Array.tree`
 * `Array.removeRange`
 * `Array.group`
