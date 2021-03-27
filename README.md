@@ -20,6 +20,22 @@ cd LRY
 npm install
 ```
 
+## Roadmap
+ 
+* `Array.chunks`
+* `Array.tree`
+* `Array.removeRange`
+* `Array.group`
+* `Array.bubbleSort`
+* `Array.mergeSort`
+* `Array.quickSort`
+* `Tree.find`
+* `Object.deepClone`
+* `Object.toArray`
+* `Object.find`
+* `Object.filter`
+
+
 ## Available scripts
 
 + `clean` - remove coverage data, Nyc cache and transpiled files,
