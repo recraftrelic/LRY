@@ -9,6 +9,10 @@ export class ArrayUtils {
 		return arrCopy;
 	}
 
+	public head<T>(arr: T[], numberOfElements: number) {
+		return arr.slice(0, numberOfElements);
+	}
+
 	public tail<T>(arr: T[], count: number) {
 		const length = arr.length;
 		return arr.slice(length - count, length);
