@@ -25,7 +25,7 @@ npm install
 * ~`Array.chunks`~
 * `Array.tree`
 * `Array.removeRange`
-* ``Array.group``
+* ~`Array.group`~
 * `Array.bubbleSort`
 * `Array.mergeSort`
 * `Array.quickSort`
