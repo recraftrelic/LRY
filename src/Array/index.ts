@@ -39,6 +39,32 @@ export class ArrayUtils {
 
 		return chunkedArray;
 	}
+
+	public group<T>(arr: T[], key: string): { [key: string]: T[] } {
+		if (!arr) {
+			return {};
+		}
+
+		if (!arr.length) {
+			return {};
+		}
+
+		return arr.reduce((previousValue, currentValue) => {
+			let groupKey = currentValue[key];
+
+			if (!groupKey) {
+				groupKey = 'ungrouped';
+			}
+
+			if (!previousValue[groupKey]) {
+				previousValue[groupKey] = [];
+			}
+
+			previousValue[groupKey] = [ ...previousValue[groupKey], currentValue ];
+
+			return previousValue;
+		}, {});
+	}
 }
 
 const arrayInstance = new ArrayUtils();
